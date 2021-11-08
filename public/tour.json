@@ -1,0 +1,41 @@
+[
+    {
+        "img":"https://getaway.qodeinteractive.com/wp-content/uploads/2017/08/tour-3-img-4.jpg",
+        "country":"Colombia",
+        "price":"$2000",
+        "description":"This Place Beautry is very amazing.so, you are travel this place and enjoy your movement and spend your time with your family"
+    },
+
+    {
+        "img":"https://getaway.qodeinteractive.com/wp-content/uploads/2017/08/tour-5-img-3.jpg",
+        "country":"argentina",
+        "price":"$3000",
+        "description":"This Place Beautry is very amazing.so, you are travel this place and enjoy your movement and spend your time with your family"
+    },
+    {
+        "price":"$3500",
+        "img":"https://getaway.qodeinteractive.com/wp-content/uploads/2017/08/tour-5-img-2.jpg",
+        "country":"Brasils",
+        "description":"This Place Beautry is very amazing.so, you are travel this place and enjoy your movement and spend your time with your family"
+    },
+
+    {
+        "price":"$4000",
+        "img":"https://getaway.qodeinteractive.com/wp-content/uploads/2017/08/tour-5-img-1.jpg",
+        "country":"Romania",
+        "description":"This Place Beautry is very amazing.so, you are travel this place and enjoy your movement and spend your time with your family"
+    },
+    {
+        "price":"$7000",
+        "img":"https://getaway.qodeinteractive.com/wp-content/uploads/2017/08/tour-3-img-5.jpg",
+        "country":"UK",
+        "description":"This Place Beautry is very amazing.so, you are travel this place and enjoy your movement and spend your time with your family"
+    },
+
+    {
+        "price":"$6000",
+        "img":"https://getaway.qodeinteractive.com/wp-content/uploads/2017/08/tour-3-img-5.jpg",
+        "country":"Turkey",
+        "description":"This Place Beautry is very amazing.so, you are travel this place and enjoy your movement and spend your time with your family"
+    }
+]

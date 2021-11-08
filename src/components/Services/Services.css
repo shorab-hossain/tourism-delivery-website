@@ -1,0 +1,17 @@
+.services{
+    background-color: #f4f6fa;
+    padding: 20px;
+}
+.services small{
+    font-size: 20px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+@media only screen and (max-width: 600px) {
+    .card-container {
+        grid-template-columns: repeat(1,1fr);
+    }
+  }

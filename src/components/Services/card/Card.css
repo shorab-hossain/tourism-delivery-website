@@ -1,0 +1,9 @@
+.service-card img{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    height: 300px;
+}
+.service-card{
+    background-image: url("https://demo.web3canvas.com/themeforest/medenin/images/services-bg3.png");
+}
