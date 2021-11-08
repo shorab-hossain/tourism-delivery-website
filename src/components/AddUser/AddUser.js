@@ -7,7 +7,7 @@ const AddUser = () => {
         const name = nameRef.current.value;
         const email = emailRef.current.value;
         const newUser = {name, email};
-        fetch('http://localhost:5000/user',{
+        fetch('https://sheltered-spire-72785.herokuapp.com/user',{
             method:'POST',
             headers:{
                 'content-type':'application/json'

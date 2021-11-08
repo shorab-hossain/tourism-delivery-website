@@ -5,7 +5,7 @@ import ('./Services.css')
 const Services = () => {
     const [cards, setCards] = useState([]);
     useEffect(() =>{
-        fetch('http://localhost:5000/customer')
+        fetch('https://sheltered-spire-72785.herokuapp.com/customer')
         .then(res =>res.json())
         .then(data =>setCards(data))
     },[])

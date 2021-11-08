@@ -10,7 +10,7 @@ const Booking = () => {
     const [tour, setTour] = useState({})
     const {id} = useParams()
     useEffect(()=>{
-        const url =`http://localhost:5000/tour/${id}`
+        const url =`https://sheltered-spire-72785.herokuapp.com/tour/${id}`
         fetch(url)
         .then(res => res.json())
         .then(data=>setTour(data))
@@ -19,7 +19,7 @@ const Booking = () => {
     const onSubmit = data => {
         console.log(data)
         data.status="Pending"
-        fetch('http://localhost:5000/User',{
+        fetch('https://sheltered-spire-72785.herokuapp.com/user',{
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
