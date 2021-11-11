@@ -13,7 +13,7 @@ const Tour = (props) => {
                 <h4>{country}</h4>
                 <h5>{price}</h5>
                 <p className="card-text">{description}</p>
-                <Link to="/booking">
+                <Link to={`/booking/${_id}`}>
                 <button className="btn btn-primary px-3 py-2">Book Now<i className="fas fa-shopping-cart ms-2"></i></button> 
                 </Link>
             </div>

@@ -45,7 +45,7 @@ function App() {
           <Route path="/user/update/:id">
             <UpdateUser></UpdateUser>
           </Route>
-          <Route path="/booking">
+          <Route path="/booking/:id">
             <Booking></Booking>
           </Route>
           <Route exact  path="/contract">
